@@ -49,6 +49,7 @@
 		D80B87F125F9F0060029315E /* MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80B87F525F9F0060029315E /* MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuUITests.swift; sourceTree = "<group>"; };
 		D80B87F725F9F0060029315E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86E0C3425FA16CB00F778FD /* Menu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Menu.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		D80B87D225F9F0050029315E /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				D86E0C3425FA16CB00F778FD /* Menu.entitlements */,
 				D80B87D325F9F0050029315E /* AppDelegate.swift */,
 				D80B87D525F9F0050029315E /* SceneDelegate.swift */,
 				D80B87D725F9F0050029315E /* ContentView.swift */,
@@ -436,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Menu/Menu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Menu/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -446,6 +449,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = namnguyen.Menu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Menu/Menu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Menu/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -466,6 +471,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = namnguyen.Menu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
